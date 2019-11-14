@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.dao.IHotelDao">
+    <select id="getList" resultType="hotel">
+         select * from hotel where flag='0'
+    </select>
+    <insert id="save" parameterType="hotel">
+        insert hotel (hotelname,introduction,address,phone,pic,score,price,kind,service)
+        values (#{hotelname},#{introduction},#{address},#{phone},#{pic},#{score},#{price},#{kind},#{service})
+    </insert>
+    <update id="update" parameterType="hotel">
+        update hotel
+        set hotelname = #{hotelname} ,introduction = #{introduction},address = #{address},phone = #{phone},pic = #{pic},
+        score = #{score},price = #{price},kind = #{kind},service = #{service} where hotelid = #{hotelid}
+    </update>
+    <update id="delete" parameterType="int">
+        update hotel
+        set flag = 1 where hotelid=#{id}
+    </update>
+<update id="allDelete">
+    update hotel
+    set flag = 1
+    <where>
+    /*将控制层传来的id数组遍历*/
+        <if test="array != null">
+            <foreach collection="array" open="and hotelid in (" close=")" item="id" separator=",">
+            #{id}
+        </foreach>
+        </if>
+    </where>
+</update>
+    <update id="setPic" >
+        update hotel
+        set pic = #{str} where hotelid=#{id}
+    </update>
+    
+    <select id="searchSome" resultType="hotel" parameterType="search">
+        select * from hotel  where 1=1
+        <if test="s_id != null ">
+        /*#{}内容默认带有'',所以要用${}*/
+          and  hotelid like '%${s_id}%'
+        </if>
+        <if test="s_name != null ">
+            and  hotelname like '%${s_name}%'
+        </if>
+    </select>
+</mapper>

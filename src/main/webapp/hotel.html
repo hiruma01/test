@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酒店列表</title>
+    <!--引入jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- 引入样式-->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hotel.js"></script>
+    <!--web.xml中如果你用的jsp1.2版本的DTD,默认EL是关闭的，必须开启 -->
+    <!--@ page isELIgnored="false"%-->
+
+    <script>
+
+    </script>
+
+</head>
+<body>
+<div class="container">
+    <!--标题 -->
+    <div class="row">
+        <div class="col-md-12">
+            <h1>酒店信息</h1>
+        </div>
+    </div>
+   <!-- 按钮 客户界面-->
+    <div class="row">
+        <div  class="col-md-10  col-sm-10">
+            <form  id="search-form">
+                <div>
+                    酒店编号<input type="text"  name="s_id" placeholder="请输入搜索id号">
+                    酒店酒店名字<input type="text"  name="s_name" placeholder="请输入搜索酒店名字">
+                    <button  class="btn btn-default" type="button" id="search-btn">Search</button>
+                    <button  class="btn btn-default" type="button" id="firstpage-btn">首页</button>
+                </div>
+            </form>
+        </div>
+        <!--客户不需要添加查询-->
+      <!--  <div class="col-md-2  col-sm-2 " >
+            <button class="btn btn-primary" id="hotel_add_modal_btn" style="margin-top: 10px">新增</button>
+            &lt;!&ndash; 放到列表兰里&ndash;&gt;
+            &lt;!&ndash;<button class="btn btn-primary" id="pic_modal_btn">添加图片</button>&ndash;&gt;
+            <button class="btn btn-danger" id="hotel_delete_all_btn" style="margin-top: 10px">删除</button>
+        </div>-->
+    </div>
+    <br>
+    <!--显示表格数据 -->
+    <div class="row">
+        <div class="table-responsive col-md-12">
+            <table class="table table-hover" id="hotel_table">
+                <thead>
+                <tr>
+                    <!--<th>
+                        <input type="checkbox" id="check_all"/>
+                    </th>-->
+                    <th>酒店编号</th>
+                    <th>酒店名</th>
+                    <th>简介</th>
+                    <th>地址</th>
+                    <th>电话</th>
+                    <th>图片</th>
+                    <th>评分</th>
+                    <th>价格</th>
+                    <th>种类</th>
+                    <th>服务</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+
+
+            </table>
+        </div>
+    </div>
+    <!--显示分页信息 -->
+    <div class="row">
+        <!--分页文字信息 -->
+        <div class="col-md-6 col-sm-6" id="page_info_area">
+            当前第页，总共页，总共条记录
+        </div>
+        <!--分页导航条信息 -->
+        <div class="col-md-6 col-sm-6" id="page_nav_area">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
