@@ -1,0 +1,40 @@
+body{
+    background: url("../img/1.jpg");
+    animation-name:myfirst;
+    animation-duration:10s;
+    /*变换时间*/
+    animation-delay:0s;
+    /*动画开始时间*/
+    animation-iteration-count:infinite;
+    /*下一周期循环播放*/
+    animation-play-state:running;
+    /*动画开始运行*/
+}
+@keyframes myfirst
+{
+    0%   {background:url("../img/2.jpg");}
+    34%  {background:url("../img/3.jpg");}
+    70%  {background:url("../img/4.jpg");}
+    100% {background:url("../img/5.jpg");}
+}
+
+
+.loginBox
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 385px;
+    height:360px;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+h2{
+    color: blue;
+}
+.error{
+    color: red;
+    font-size: 10px;
+}

@@ -2,11 +2,53 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="hotel:war exploded" />
+      <artifact name="test:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0a89616-c4d7-475a-9242-9c637e71b453" name="Default Changelist" comment="" />
+    <list default="true" id="a0a89616-c4d7-475a-9242-9c637e71b453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/Pic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qf/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/three.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugin/css/bootstrapValidator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugin/css/bootstrapValidator.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugin/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugin/js/bootstrapValidator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/controller/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-1.0-SNAPSHOT/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-1.0-SNAPSHOT/js/jquery-3.3.1.min.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +63,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4066">
-              <caret line="214" column="28" lean-forward="true" selection-start-line="214" selection-start-column="28" selection-end-line="214" selection-end-column="28" />
+            <state relative-caret-position="157">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -47,7 +107,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/fq/domain/Hotel.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qf/domain/Hotel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qf/domain/Msg.java" />
@@ -64,9 +123,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/hotel.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/hotel.js" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/HotelController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/qf/dao/IHotelDao.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/adminhotel.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/HotelController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/login.js" />
       </list>
     </option>
   </component>
@@ -80,8 +145,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../anzhuang/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="G:\java1907\anzhuang\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.3.9/bin" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -121,26 +186,81 @@
         <subPane>
           <expand>
             <path>
-              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,7 +274,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/qf/dao" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -164,11 +290,14 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\java1907\indo\hotel\src\main\webapp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\java1907\indo\hotel\src\main\resources" />
+      <recent name="D:\02QF\test\src\main\resources\com\qf\dao" />
+      <recent name="D:\02QF\test\src\main\webapp" />
+      <recent name="D:\02QF\test\src\main\webapp\js" />
+      <recent name="D:\02QF\test\src\main\java\com\qf\controller" />
+      <recent name="D:\02QF\test\src\main\java\com\qf\service\impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\java1907\indo\hotel\src\main\webapp" />
     </key>
   </component>
@@ -186,11 +315,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.311" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.311" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="hotel:war exploded">
+        <artifact name="test:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -256,6 +385,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="hotel:war exploded" />
+          <artifact name="test:war exploded" />
         </option>
       </method>
     </configuration>
@@ -287,16 +417,27 @@
       <workItem from="1573631237379" duration="373000" />
       <workItem from="1573631646483" duration="2468000" />
       <workItem from="1573702387893" duration="317000" />
+      <workItem from="1573703493721" duration="3200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131640000" />
+    <option name="totallyTimeSpent" value="134840000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1816354" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19235925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -307,23 +448,23 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36749634" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3499268" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.91219836" visible="true" weight="0.14872521" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.329429" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49932975" weight="0.76203966" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.087801605" side_tool="true" visible="true" weight="0.14872521" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49865952" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3293944" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.329429" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49865952" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49865952" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49865952" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.0844504" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.0844504" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -371,9 +512,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/studentinfo.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -454,35 +592,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-839">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Pic.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,56 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/adminhotel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="38" column="14" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="38" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/hotel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/hotel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="58" column="54" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1103">
-          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -636,16 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/controller/HotelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/qf/dao/IHotelDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -653,10 +710,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hotelscore.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="15" selection-end-line="50" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4066">
-          <caret line="214" column="28" lean-forward="true" selection-start-line="214" selection-start-column="28" selection-end-line="214" selection-end-column="28" />
+        <state relative-caret-position="2725">
+          <caret line="214" column="28" selection-start-line="214" selection-start-column="28" selection-end-line="214" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/adminhotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4739">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Pic.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugin/js/bootstrapValidator.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/qf/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/controller/HotelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qf.dao.UserDao">
+
+    <!--
+    select * from user where username = #{username} and password = #{password}
+    -->
+    <select id="login" resultType="com.qf.domain.User" parameterType="user">
+        select * from  user where username = #{username} and password = #{password}
+    </select>
+
+    <insert id="register" parameterType="user">
+        insert into user (username,password,birthday,email,phone,pic,regtime) values (#{username},#{password},#{birthday},#{email},#{phone},#{pic},#{regtime})
+    </insert>
+
+    <select id="stuIsExist" resultType="user" parameterType="string">
+        select * from user where username = #{username}
+    </select>
+
+</mapper>

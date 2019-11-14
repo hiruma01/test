@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>search</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+<h2>操作成功</h2>
+<p><span id="mySecond">5</span>秒后去到登陆界面 <a href="javascript:go();">go</a></p>
+
+
+<script type="text/javascript">
+
+    //获取显示秒数的元素，通过定时器来更改秒数。
+    var num=4;
+    function count(){
+        document.getElementById("mySecond").innerHTML = num;
+        num--;
+        setTimeout("count()",1000);
+        if(num==1){
+           // window.location.assign("http://www.baidu.com");
+            window.location.href="login.html";
+        }
+    }
+    setTimeout("count()",1000);
+    //通过window.history对象来控制网页的跳转。
+    function go(){
+        window.location.href="login.html";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url("../img/three.jpg");
+    background-size: 100% ;
+    font-family: Sans-serif;
+
+}
+
+
+.registerBox
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height:480px;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+
+.input-val {
+    width: 250px;
+    background: #ffffff;
+    height: 3.1rem;
+    padding: 0 2%;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgba(0,0,0,.2);
+    /*font-size: 1.0625rem;*/
+    font-family: Sans-serif;
+}
+#btn {
+    width: 100px;
+    height: 40px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto 0;
+    display: block;
+    font-size: 1.2rem;
+    color: #e22e1c;
+    cursor: pointer;
+}
+#canvas {
+    float: right;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+

@@ -117,7 +117,6 @@ public class HotelController {
 
         PageInfo pageInfo = new PageInfo(hotelList1, 5);
         return pageInfo;
-
     }
 
 }
